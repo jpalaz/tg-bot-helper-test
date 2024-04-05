@@ -1,0 +1,16 @@
+{
+  "name": "tg-bot-helper",
+  "version": "1.0.0",
+  "description": "Bot example that just send message for the command",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "netlify-lambda": "^2.0.16",
+    "telegraf": "^4.16.3"
+  }
+}
