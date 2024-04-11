@@ -4,13 +4,14 @@
   "description": "Bot example that just send message for the command",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node localbot.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "netlify-lambda": "^2.0.16",
-    "telegraf": "^4.16.3"
+    "telegraf": "^4.16.3",
+    "tg-bot-helper": "file:"
   }
 }
