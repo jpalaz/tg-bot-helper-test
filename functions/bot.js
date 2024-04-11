@@ -32,6 +32,7 @@ Object.keys(messages).forEach(function(command) {
 });
 
 bot.on(message(), async (ctx) => {
+  
   if (ctx.update?.message?.reply_to_message != null  && ("" + ctx.update?.message?.from?.id) === adminId) {
     const originalMessage = ctx.update.message.reply_to_message
     const startIndex = originalMessage.text.indexOf("@")

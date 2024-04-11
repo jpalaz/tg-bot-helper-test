@@ -11,7 +11,6 @@
   "license": "ISC",
   "dependencies": {
     "netlify-lambda": "^2.0.16",
-    "telegraf": "^4.16.3",
-    "tg-bot-helper": "file:"
+    "telegraf": "^4.16.3"
   }
 }
